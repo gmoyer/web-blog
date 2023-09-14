@@ -1,5 +1,7 @@
 [
     {
-        "filename": "post1.html"
+        "filename": "post1.html",
+        "route": "post1",
+        "name": "Post 1"
     }
 ]
