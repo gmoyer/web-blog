@@ -2,6 +2,9 @@
     {
         "filename": "grazingAI",
         "route": "grazing",
-        "name": "Grazing Natural Selection Learning Model"
+        "name": "Grazing Natural Selection Learning Model",
+        "images": [
+            "img1.png"
+        ]
     }
 ]
