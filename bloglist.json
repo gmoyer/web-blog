@@ -3,5 +3,10 @@
         "filename": "grazingAI",
         "route": "grazing",
         "name": "Grazing Natural Selection Learning Model"
+    },
+    {
+        "filename": "website",
+        "route": "website",
+        "name": "This website!"
     }
 ]
