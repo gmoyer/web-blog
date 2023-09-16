@@ -1,0 +1,5 @@
+This is the content of the webpage. I am letting the page wrap now. Blah blah blah more important things to say.
+>>IMAGE>>img1.png>>This shows the machine learning in action.
+While I liked this project a lot, there were many issues. Cool stuff. I want the text to wrap on the webpage. Loren ipsum sit amet. Other things. Cool website. Cool. Fun. Based? Based on what?
+>>IMAGE>>img1.png>>
+Another one!
