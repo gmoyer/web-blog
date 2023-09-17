@@ -1,10 +1,14 @@
 [
     {
-        "id": "grazing",
-        "name": "Grazing Natural Selection Learning Model"
-    },
-    {
         "id": "website",
         "name": "This website!"
+    },
+    {
+        "id": "clue",
+        "name": "Clue Algorithm"
+    },
+    {
+        "id": "grazing",
+        "name": "Grazing Natural Selection Learning Model"
     }
 ]
