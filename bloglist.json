@@ -10,9 +10,5 @@
     {
         "id": "cipher",
         "name": "Circle and Arrows Cipher"
-    },
-    {
-        "id": "grazing",
-        "name": "Grazing Natural Selection Learning Model"
     }
 ]
