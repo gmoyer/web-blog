@@ -1,5 +1,18 @@
-This project is a group effort with Kevin Leidig, one of my friends at CU Boulder. He described to me a cipher he had created, and I decided I wanted to write a code for it so that we could translate typed text into his cipher. The cipher works as follows.
-Arrange the letters of the alphabet on a grid (see figure 1). Each letter is represented by a position on the grid.
+This project represents a collaborative endeavor alongside my friend, Kevin Leidig, a fellow student at CU Boulder. It all began when he introduced me to a unique cipher he had crafted. Intrigued by its intricacies, I resolved to develop a code that could translate ordinary text into this cipher. Allow me to explain the workings of this cipher.
+Imagine the alphabet laid out in a grid formation, as illustrated in Figure 1 below:
 >>IMAGE>>alphabet.png>>Figure 1: The alphabet arranged on a grid
-Now think of each letter as a direction from the center point (the m). Thus, the "m" would require no movement, the "h" requires moving up one, and the "a" is back two, up two. This movement can be inscrybed with lines and dashes (see figure 2). A movement of distance one from the center point just requires a line pointing in the direction of the movement. Any additional movement is represented by dashes attached to the line. A horizontal dash means moving up or down one more, and a vertical dash means moving left or right one more. Additionally, only forward directions can be represented (you will understand why later), so backward directions are represented by an unfilled circle (signaling to flip the direction).
+Now, envision each letter as a directional marker emanating from a central point, represented by the letter "m." In this conceptualization, "m" signifies no movement, "h" signifies an upward shift by one, and "a" implies a simultaneous backward movement of two and an upward ascent of two. These movements can be visually encoded using lines and dashes, as exemplified in Figure 2 below:
 >>IMAGE>>base_m.png>>Figure 2: The alphabet represented as the cipher
+Here's how it works: A movement of one unit from the central point is represented by a line pointing in the direction of that movement. Any additional movements are indicated by dashes affixed to the line. A horizontal dash denotes an upward or downward shift by one unit, while a vertical dash indicates a left or right movement by one unit. It's worth noting that only forward directions are accounted for (you'll soon understand why), so backward movements are symbolized by an unfilled circle, signaling a reversal of direction.
+However, this is just one way to represent the alphabet. When the line points backward, it signifies a base swap, effectively altering the center point's location. Figure 3 showcases all the possible base swaps, centered on the letter "m":
+>>IMAGE>>swaps.png>>All of the base swaps. The center is a base-m swap
+Following any base swap, the characters are centered on the letter that executed the base swap. Figure 4 demonstrates a base-n swap, once again with the letter "m" in the middle of the grid:
+>>IMAGE>>base_n.png>>A base-n swap
+To illustrate the concept further, consider the text "Hello world!" with a base-g swap following the first 'l':
+>>IMAGE>>hello_world.png>>Hello world!
+In this system, every character can be represented in 26 different ways, resulting in approximately 100 trillion ways to depict 'Hello world!' alone.
+After immersing myself in this system, I was determined to develop an algorithm to translate text into this captivating cipher. Consequently, we devised a font that transforms Chinese characters into cipher characters, as the richness of this cipher surpasses the constraints of standard alphabet Unicode encodings. To experiment with the cipher, please visit the following link:
+>>LINK>>https://gmoyer.github.io/kevin-cipher/>>Kevin Cipher
+To try out the algorithm, simply input your text in the provided box and click 'translate.' For base swaps, input a '~' followed by the character you wish to swap into.
+Additionally, I've introduced an experimental 'livetype' feature that translates the characters you type into the cipher format as you go along. You can test this feature here:
+>>LINK>>https://gmoyer.github.io/kevin-cipher/livetype/>>Kevin Cipher - Livetype
