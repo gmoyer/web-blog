@@ -4,15 +4,15 @@
         "name": "This website!"
     },
     {
-        "id": "clue",
-        "name": "Clue Algorithm"
-    },
-    {
         "id": "cipher",
         "name": "Kevin Cipher"
     },
     {
         "id": "diffchecker",
         "name": "Homework Plagiarism Detector"
+    },
+    {
+        "id": "clue",
+        "name": "Clue Algorithm"
     }
 ]
