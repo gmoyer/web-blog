@@ -1,15 +1,15 @@
 [
     {
-        "id": "website",
-        "name": "This website!"
-    },
-    {
         "id": "cipher",
         "name": "Kevin Cipher"
     },
     {
         "id": "diffchecker",
         "name": "Homework Plagiarism Detector"
+    },
+    {
+        "id": "website",
+        "name": "This website!"
     },
     {
         "id": "clue",
