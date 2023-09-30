@@ -10,5 +10,9 @@
     {
         "id": "cipher",
         "name": "Kevin Cipher"
+    },
+    {
+        "id": "diffchecker",
+        "name": "Homework Plagiarism Detector"
     }
 ]
