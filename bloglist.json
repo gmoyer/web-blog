@@ -1,5 +1,9 @@
 [
     {
+        "id": "snowpack",
+        "name": "ML Snowpack Identifier"
+    },
+    {
         "id": "cipher",
         "name": "Kevin Cipher"
     },
